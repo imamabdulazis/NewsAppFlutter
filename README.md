@@ -1,4 +1,4 @@
-# gama_flutter_finish
+# News_flutter_finish
 
 A new Flutter project.
 
