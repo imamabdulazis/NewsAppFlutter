@@ -18,7 +18,7 @@ class _News extends State<News>{
   final GlobalKey<RefreshIndicatorState> _refreshIndicatorKey =
       new GlobalKey<RefreshIndicatorState>();
   Color _color=Colors.grey;
-  String Base_Url = "https://www.bernas.id/api/android/v1/list?datewl=0000-00-00%2000:00:00&kategori=13&berita=baru";
+  String Base_Url = "https://*******/api/android/v1/list?datewl=0000-00-00%2000:00:00&kategori=13&berita=baru";
   List<Berita> list;
   //api berita list
   Future<List<Berita>> _getBerita() async {
